@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+:root {
+    --darkish-background: rgba(0,0,0,0.7);
+}
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--darkish-background);
+    padding: 2rem;
+}
+
+.header .title {
+    font-family: 'Moon Dance', cursive;
+    font-size: 7rem;
+    color: rgb(222, 39, 39);
+    margin: 1rem;
+}
+
+body {
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    background-image: url(/images/ichiraku-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 5rem;
+}
+
+.nav-btn {
+    padding: 1.5rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+    background: none ;
+    border: none;
+    color: whitesmoke;
+}
