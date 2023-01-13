@@ -62,6 +62,10 @@ body {
     color: var(--font-colr);
 }
 
+.nav-btn.active {
+    border-bottom: 2px solid var(--font-colr);
+}
+
 .footer {
     padding: 2rem;
     background-color: var(--darkish-background);
@@ -82,6 +86,7 @@ body {
     background-color: var(--medium-dark-bg);
     font-size: 2rem;
     border: 1px solid var(--border-col);
+    margin: 6rem;
 }
 
 /* HOME PAGE */
