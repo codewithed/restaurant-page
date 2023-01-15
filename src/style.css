@@ -6,6 +6,7 @@
     --border-col: black;
     --font-colr: whitesmoke;
 }
+
 html {
     font-size: 62.5%;
 }
@@ -33,6 +34,7 @@ body {
     background-image: url(/images/ichiraku-background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     padding: 0;
     margin: 0;
     color: var(--font-colr)
@@ -100,6 +102,9 @@ body {
 
 }
 
+.home p {
+    margin-bottom: 1rem;
+}
 .home img {
     width: 50%;
 }
