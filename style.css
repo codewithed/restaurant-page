@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+:root {
+    --darkish-background: rgba(0,0,0,0.8);
+    --medium-dark-bg: rgba(0,0,0,0.5);
+    --border-col: black;
+    --font-colr: whitesmoke;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--darkish-background);
+    padding: 2rem;
+}
+
+.header .title {
+    font-family: 'Moon Dance', cursive;
+    font-size: 7rem;
+    color: rgb(222, 39, 39);
+    margin: 1rem;
+}
+
+body {
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    background-image: url(/images/ichiraku-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    color: var(--font-colr)
+}
+
+/* CONTENT */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 5rem;
+}
+
+.nav-btn {
+    padding: 1.5rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+    background: none ;
+    border: none;
+    color: var(--font-colr);
+}
+
+.nav-btn:focus {
+    border-bottom: 2px solid var(--font-colr);
+}
+
+.footer {
+    padding: 2rem;
+    background-color: var(--darkish-background);
+    text-align: center;
+    width: 100%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--font-colr)
+}
+
+/* MAIN */
+
+.main {
+    max-width: 700px;
+    padding: 4rem;
+    background-color: var(--medium-dark-bg);
+    font-size: 2rem;
+    border: 1px solid var(--border-col);
+    margin: 6rem;
+}
+
+/* HOME PAGE */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1.5s ;
+
+}
+
+.home p {
+    margin-bottom: 1rem;
+}
+.home img {
+    width: 50%;
+}
+
+/* MENU PAGE */
+.menu img {
+    width: 45%;
+}
+
+.menuItem {
+    background-color: var(--darkish-background);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    min-width: 300px;
+    margin-bottom: 2rem;
+}
+
+/* CONTACT PAGE */
+.contact {
+    background-color: var(--darkish-background);
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactInfo {
+    text-align: center;
+}
+
+.contact img {
+    min-width: 250px;
+    width: 60%;
+}
