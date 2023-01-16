@@ -31,7 +31,7 @@ html {
 body {
     font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
     font-size: 2rem;
-    background-image: url(/images/ichiraku-background.png);
+    background-image: url(images/ichiraku-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
