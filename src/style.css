@@ -64,7 +64,7 @@ body {
     color: var(--font-colr);
 }
 
-.nav-btn.active {
+.nav-btn:focus {
     border-bottom: 2px solid var(--font-colr);
 }
 
@@ -132,6 +132,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.contactInfo {
+    text-align: center;
 }
 
 .contact img {
