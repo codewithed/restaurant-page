@@ -8,7 +8,7 @@ const homeBtn = document.getElementById('homeBtn');
 homeBtn.addEventListener('click', loadHomePage);
 
 const menuBtn = document.getElementById('menuBtn');
-menuBtn.addEventListener('click', loadContactPage);
+menuBtn.addEventListener('click', loadMenuPage);
 
 const contactBtn = document.getElementById('contactBtn');
-contactBtn.addEventListener('click', loadMenuPage);
+contactBtn.addEventListener('click', loadContactPage);

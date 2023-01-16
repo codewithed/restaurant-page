@@ -110,5 +110,19 @@ body {
 }
 
 /* MENU PAGE */
+.menu img {
+    width: 45%;
+}
+
+.menuItem {
+    background-color: var(--darkish-background);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    min-width: 300px;
+    margin-bottom: 2rem;
+}
 
 /* CONTACT PAGE */
